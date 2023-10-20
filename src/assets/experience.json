@@ -1,0 +1,6 @@
+[
+    { "id": 1, "position":"Assistant Lecturer", "place":"Petra Christian University", "period":"Feb 2019 - Dec 2022", "detail":"", "skill":"SQL, Teaching, Communication"},
+    { "id": 2, "position":"IT Staff Intern", "place":"PT Dutakom Wibawa Putra or DNET", "period":"Jul 2021 - Nov 2021", "detail":"", "skill":"Laravel, Communication, Python, HTML, CSS, Javascript"},
+    { "id": 3, "position":"IT Checking", "place":"PT Tirtakencana Tatawarna","period":"Aug 2022 - Present", "detail":"", "skill":"Excel, VBA, SQL"}
+
+]
