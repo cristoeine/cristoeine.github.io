@@ -30,7 +30,7 @@
         font-weight: bold;
     }
 
-    h4, h5{
+    h4{
         font-weight: bold;
     }
 
