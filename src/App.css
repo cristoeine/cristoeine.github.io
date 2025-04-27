@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+
+/* Basic navbar styling */
+.navbar {
+  position: relative;
+  padding: 10px;
+}
+
+.bottom-text {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+
+/* Burger icon */
+.burger {
+  width: 30px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.burger .line {
+  width: 100%;
+  height: 4px;
+  background-color: rgb(167, 163, 163) ;
+  transition: all 0.3s ease-in-out;
+  margin: 5px 0;
+}
+
+.menu li a {
+  color: white !important;
+  text-decoration: none;
+}
+
+/* Transform burger into X */
+.burger.open .line:nth-child(1) {
+  transform: translateY(10px) rotate(45deg);
+}
+
+.burger.open .line:nth-child(2) {
+  opacity: 0;
+}
+
+.burger.open .line:nth-child(3) {
+  transform: translateY(-10px) rotate(-45deg);
+}
+
+
+.home{
+  margin-top: 40vh;
+}
+
+.home-welcome{
+  font-size: large;
+}
+
+.horizontal-list{
+  list-style: none;
+  padding: 0%;
+}
+
+.horizontal-list li{
+  display: inline-block;
+  margin-inline: 2%;
+}
+
+.horizontal-list li a{
+  text-decoration: none;
+  color: black !important;
+}
+
+.horizontal-list li a:hover{
+  display: inline-block;
+  margin-inline: 2%;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer-year{
+  margin-top: 0;
+}
+
+/* Menu styles */
+.menu {
+  list-style: none;
+  padding-top: 6%;
+  padding-left: 0%;;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  background: rgba(0, 0, 0, 0.9); /* Dark overlay effect */
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  display: none; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Show menu when open */
+.menu.open {
+  display: block;
+}
+
+.menu li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.menu li:hover {
+  background: #808080;
+}
